@@ -42,6 +42,15 @@ int main(void)
     int finalindex = round(index);
     printf("\nL is %f",L);
     printf("\nS is %f",S);
+    if (finalindex < 1)
+    {
+        printf("Before Grade 1");
+    }
+    else if (finalindex >= 16)
+    {
+        printf("Grade 16+");
+    }
+    else {
     printf("\nGrade %i\n",finalindex);//round((float) index));
-
+        }
 };
