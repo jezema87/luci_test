@@ -44,11 +44,11 @@ int main(void)
 //    printf("\nS is %f",S);
     if (finalindex < 1)
     {
-        printf("Before Grade 1");
+        printf("Before Grade 1\n");
     }
     else if (finalindex >= 16)
     {
-        printf("Grade 16+");
+        printf("Grade 16+\n");
     }
     else {
     printf("\nGrade %i\n",finalindex);//round((float) index));
