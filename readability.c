@@ -35,13 +35,13 @@ int main(void)
     };
     float L = round(letters)/(words+1)*100;
     float S = round(sentence)/(words+1)*100;
-    printf("Sentence is %i",sentence);
-    printf("\nWords are %i",words+1);
-    printf("\nletters are %i",letters);
+ //   printf("Sentence is %i",sentence);
+  //  printf("\nWords are %i",words+1);
+//    printf("\nletters are %i",letters);
     float index = 0.0588 * L - 0.296 * S - 15.8;
     int finalindex = round(index);
-    printf("\nL is %f",L);
-    printf("\nS is %f",S);
+  //  printf("\nL is %f",L);
+//    printf("\nS is %f",S);
     if (finalindex < 1)
     {
         printf("Before Grade 1");
